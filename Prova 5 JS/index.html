@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas Domésticas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Gerenciador de Tarefas Domésticas</h1>
+
+    <label for="membro">Membro da Família:</label>
+    <input type="text" id="membro" placeholder="Nome do membro">
+
+    <label for="tarefa">Tarefa:</label>
+    <input type="text" id="tarefa" placeholder="Descrição da tarefa">
+
+    <label for="dia">Dia:</label>
+    <input type="date" id="dia">
+
+    <label for="hora">Hora:</label>
+    <input type="time" id="hora">
+
+    <button onclick="adicionarTarefa()">Adicionar Tarefa</button>
+
+    <div id="lista"></div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
